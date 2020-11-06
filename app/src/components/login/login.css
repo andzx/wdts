@@ -1,0 +1,82 @@
+.box-login {
+    display:table;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align:center;
+    background:rgba(255, 255, 255, 0.9);
+    padding:25px;
+}
+
+.box-login > header {
+    line-height:50px;
+    background:#1B2A49;
+    font-style:italic;
+    font-weight:bold;
+    color:#fff;
+    margin:-25px;
+}
+
+.box-login > h2 {
+    font-size:175%;
+    font-weight:normal;
+    margin-top:55px;
+    margin-bottom:15px;
+    color:#555;
+}
+
+.box-login > input,
+.btn-login {
+    display:block;
+    width:280px;
+    margin:0;
+    border:none;
+    background:#F5CB52;
+}
+
+.btn-login {
+    font-size:16pt;
+    padding:10px;
+    color:#efe;
+}
+
+.btn-login:hover {
+    opacity:0.7;
+}
+
+.box-login > input {
+    margin-bottom:15px;
+    background:none;
+    border:none;
+    border-bottom:1px solid #999;
+    padding:10px 0 10px 0;
+    font-size:12pt;
+}
+
+.box-login > input:focus {
+    border:none;
+    border-bottom:1px solid #999;
+}
+
+.box-login > .error {
+    color:teal;
+    font-size:14pt;
+    margin-bottom:9px;
+}
+
+.box-login > .rmfp {
+    margin-bottom:15px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.rmfp > a {
+    text-decoration:none;
+}
+
+.box-login > .tnc {
+    display:block;
+    margin:15px 0 15px 0;
+    color:#666;
+}

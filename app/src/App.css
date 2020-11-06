@@ -1,0 +1,46 @@
+/* General element styling */
+* {
+    box-sizing:border-box;
+}
+
+#root {
+    display:flex;
+    flex-direction:row;
+}
+
+#root::before {
+    content:"";
+    opacity:0.8;
+    background:url("./images/login-screen.png");
+    background-size:cover;
+    background-position:center center;
+    min-height:100vh;
+    min-width:100vw;
+}
+
+button {
+    cursor:pointer;
+}
+
+
+/* Navigation styling */
+nav.nav-top {
+    line-height:35px;
+}
+
+.btn-burger-menu {
+
+}
+
+nav.nav-left {
+    width:250px;
+}
+
+nav.nav-left > a {
+    line-height:35px;
+    background:blue;
+}
+
+nav.nav-left > a:hover {
+    background:light-blue;
+}
