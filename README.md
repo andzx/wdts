@@ -15,7 +15,7 @@ The layout looks like sql and Postgre supports TEXT primary keys so I picked Pos
 Notes:
 Didn't look like the intended authorization system was Oauth2 or jwt, so I made something custom that creates an access token and a device token which was intended to change after each request (I didn't manage to finish the changing part).
 You can't log in from the app because I didn't manage to finish it before midnight on friday, but you can post a request to api/login url with a tool like Postman or Insomnia to see it return tokens when using the username 'Jonathan' and the password 'password'.
-The same with get proposals, didn't finish it in the app, but you can post a get request to /api/company/1/job/1/proposals with the accessToken and deviceToken headers to see what it returns.
+The same with get proposals, didn't finish it in the app, but you can post a get request to /api/company/1/job/1/proposals with the accessToken and deviceToken headers to see what it returns. Intended to make it impossible for one company to get another's data, but there was a bug which I didn't resolve before midnight on friday.
 
 Api Setup with mariadb
 0. Clone this git repository or download an archive version of this project and unpack somewhere
